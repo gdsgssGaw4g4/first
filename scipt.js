@@ -5,7 +5,7 @@ var link = document.querySelector('#elCopyright a');
 link.innerHTML = 'Powered by Panolas';
 
 // Change the title attribute of the link element
-link.querySelector('a').title = 'Powered by Panolas';
+link.title = 'Powered by Panolas';
 
 // Set the link's href attribute to the YouTube URL
 link.href = 'https://www.youtube.com/';
