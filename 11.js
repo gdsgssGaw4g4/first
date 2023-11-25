@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Your code here
-    var element = document.querySelector('.watermark');
+    var element = document.querySelector('.content-wrapper.-embed .watermark');
     if (element) {
         element.style.display = 'none !important';
     }
